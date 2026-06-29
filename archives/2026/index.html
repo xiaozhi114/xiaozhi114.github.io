@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2026 | 小纸の纸团堆</title><meta name="author" content="xiaozhi2048"><meta name="copyright" content="xiaozhi2048"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="2026">
+<meta property="og:url" content="https://xiaozhi114.github.io/archives/2026/index.html">
+<meta property="og:site_name" content="小纸の纸团堆">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://xiaozhi114.github.io/png/xiaozhi2048.png">
+<meta property="article:author" content="xiaozhi2048">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://xiaozhi114.github.io/png/xiaozhi2048.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://xiaozhi114.github.io/archives/2026/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.5"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '2026',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'archive'
+}</script><!-- 引入FA4.7图标库，解决菜单/Github邮箱图标缺失方块 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* 注册本地TTF字体 */
+@font-face {
+  font-family: "MinecraftAE";
+  src: url("/ttf/Minecraft_AE.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 全局文字统一Minecraft字体，排除图标、代码 */
+body, h1,h2,h3,h4,h5,h6,p,span:not(.fa),
+.menu-item-text, .post-title, .sidebar-title,
+.card-author-desc, .footer, .tag, .category, .word,
+input, textarea, button, a
+{
+  font-family: "MinecraftAE", system-ui, sans-serif !important;
+}
+
+/* FA图标强制使用图标字体，不被Minecraft覆盖 */
+i.fa, span.fa, .fa::before {
+  font-family: "FontAwesome" !important;
+  font-weight: normal !important;
+}
+
+/* 代码块保留等宽字体 */
+pre, code {
+  font-family: Consolas, monospace;
+}
+
+/* 右侧悬浮社交容器样式 */
+.float-social-box {
+  position: fixed;
+  right: 20px;
+  bottom: 140px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.float-social-item {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+.float-social-item:hover {
+  transform: scale(1.12);
+}
+/* 平台PNG图标尺寸适配 */
+.social-img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+/* 各平台背景色 */
+.social-bili { background: #fb7299; }
+.social-douyin { background: #000000; }
+.social-xhs { background: #ff2442; }
+.social-ks { background: #ff4800; }
+.social-github { background: #55AA55; }
+.social-mail { background: #4472C4; }
+.float-social-item i {
+  color: #fff;
+  font-size: 18px;
+}
+</style>
+<meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/png/xiaozhi2048.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 文章归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签合集</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder"></i><span> 分类目录</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-user"></i><span> 关于小纸</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">小纸の纸团堆</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 文章归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签合集</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder"></i><span> 分类目录</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-user"></i><span> 关于小纸</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">2026</h1></div></header><main class="layout" id="content-inner"><div id="archive"><div class="article-sort-title">全部文章 - 1</div><div class="article-sort"><div class="article-sort-item year">2026</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2026-06-28T16:31:01.684Z" title="发表于 2026-06-29 00:31:01">2026-06-29</time></div><a class="article-sort-item-title" href="/2026/06/29/hello-world/" title="Hello World">Hello World</a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/png/xiaozhi2048.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">xiaozhi2048</div><div class="author-info-description">🎮 Minecraft爱好者,💻 服务器运维与模组学习,📝 分享游戏教程与随笔</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xiaozhi114"><i class="fa fa-github"></i><span>Github主页</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/06/29/hello-world/" title="Hello World">Hello World</a><time datetime="2026-06-28T16:31:01.684Z" title="发表于 2026-06-29 00:31:01">2026-06-29</time></div></div></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/06/">
+            <span class="card-archive-list-date">
+              六月 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-06-29T15:58:27.107Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By xiaozhi2048</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.5</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.5"></script><script src="/js/main.js?v=5.5.5"></script><div class="js-pjax"></div><!-- 右侧悬浮社交按钮 HTML -->
+<div class="float-social-box">
+  <!-- B站 -->
+  <a class="float-social-item social-bili" href="https://space.bilibili.com/3706978293517150?spm_id_from=333.1007.0.0" target="_blank" title="哔哩哔哩：minecraft小纸">
+    <img class="social-img" src="/png/bilibili.png" alt="bilibili">
+  </a>
+  <!-- 抖音 -->
+  <a class="float-social-item social-douyin" href="https://www.douyin.com/user/MS4wLjABAAAAitCbCu8Wvka1gn6m8pj1454J1scLYY9D2DxEvkFAaUE5McnpT7ozKZ2Lxe8nhZ2I" target="_blank" title="抖音：MC小纸">
+    <img class="social-img" src="/png/tiktok.png" alt="douyin">
+  </a>
+  <!-- 小红书 -->
+  <a class="float-social-item social-xhs" href="https://www.xiaohongshu.com/user/profile/5fbcf7b1000000000101d32b" target="_blank" title="小红书：MC小纸">
+    <img class="social-img" src="/png/xiaohongshu.png" alt="xiaohongshu">
+  </a>
+  <!-- 快手 -->
+  <a class="float-social-item social-ks" href="https://www.kuaishou.com/profile/3x4e3ba69qyt472" target="_blank" title="快手：MC小纸">
+    <img class="social-img" src="/png/kuaishou.png" alt="kuaishou">
+  </a>
+  <!-- Github FA图标 -->
+  <a class="float-social-item social-github" href="https://github.com/xiaozhi114" target="_blank" title="Github主页">
+    <i class="fa fa-github"></i>
+  </a>
+  <!-- 邮箱 FA图标 -->
+  <a class="float-social-item social-mail" href="mailto:3513448632@qq.com" title="发送邮件联系">
+    <i class="fa fa-envelope"></i>
+  </a>
+</div>
+<script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
