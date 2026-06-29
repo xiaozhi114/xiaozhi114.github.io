@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="zh_cn" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Page Not Found | 小纸の纸团堆</title><meta name="author" content="Xiaozhi2048"><meta name="copyright" content="Xiaozhi2048"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#121212"><meta property="og:type" content="website">
+<meta property="og:title" content="小纸の纸团堆">
+<meta property="og:url" content="https://xiaozhi114.github.io/404.html">
+<meta property="og:site_name" content="小纸の纸团堆">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Xiaozhi2048">
+<meta name="twitter:card" content="summary"><script type="application/ld+json"></script><link rel="shortcut icon" href="/"><link rel="canonical" href="https://xiaozhi114.github.io/404.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.5"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.14/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#121212')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'f0f0f0')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":600,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Page Not Found',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: '404'
+}</script><!-- FA4.7 CDN 仅用于github、邮箱图标 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* 本地Minecraft_AE文字字体 */
+@font-face {
+  font-family: "MinecraftAE";
+  src: url("/ttf/Minecraft_AE.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 纯文字统一MC字体 */
+body, h1,h2,h3,h4,h5,h6,p,span:not(.fa),
+.menu-item-text, .post-title, .sidebar-title,
+.card-author-desc, .footer, .tag, .category, .word,
+input, textarea, button
+{
+  font-family: "MinecraftAE", system-ui, sans-serif !important;
+}
+
+/* FA图标专用字体，仅github/邮箱使用 */
+i.fa, span.fa, .fa::before {
+  font-family: "FontAwesome" !important;
+  font-weight: normal !important;
+}
+
+/* 右侧悬浮社交容器 */
+.float-social-box {
+  position: fixed;
+  right: 20px;
+  bottom: 140px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.float-social-item {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+.float-social-item:hover {
+  transform: scale(1.12);
+}
+/* 图片图标容器 */
+.social-img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+/* 平台背景色 */
+.social-bili { background: #fb7299; }
+.social-douyin { background: #000000; }
+.social-xhs { background: #ff2442; }
+.social-ks { background: #ff4800; }
+.social-github { background: #55AA55; }
+.social-mail { background: #4472C4; }
+.float-social-item i {
+  color: #fff;
+  font-size: 18px;
+}
+</style>
+<meta name="generator" content="Hexo 8.1.2"></head><body><div class="bg-animation" id="web_bg" style="background-color: #202028;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/null" onerror="this.onerror=null;this.src='/null'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-book"></i><span> 文章归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签合集</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类目录</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于小纸</span></a></div></div></div></div><div class="page type-404" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">小纸の纸团堆</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-book"></i><span> 文章归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签合集</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类目录</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于小纸</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">小纸の纸团堆</h1></header><main class="layout hide-aside" id="content-inner"><div class="nc" id="page"><div class="error-content"><div class="error-img"><img src="https://img0.baidu.com/it/u=1236958113,3820211322&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=1920&amp;h=1080" alt="Page not found"></div><div class="error-info"><h1 class="error_title">404</h1><div class="error_subtitle">坠入虚空，页面丢失</div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By Xiaozhi2048</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.5</a></span></div><div class="footer_custom_text">小纸的纸团堆 | Minecraft 个人博客</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.5"></script><script src="/js/main.js?v=5.5.5"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.14/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><!-- 全套社交悬浮按钮，短视频使用本地图片图标 -->
+<div class="float-social-box">
+  <!-- B站 本地图片 bilibili.png -->
+  <a class="float-social-item social-bili" href="https://space.bilibili.com/3706978293517150?spm_id_from=333.1007.0.0" target="_blank" title="哔哩哔哩：minecraft小纸">
+    <img class="social-img" src="/png/bilibili.png" alt="bilibili">
+  </a>
+  <!-- 抖音 本地图片 tiktok.png -->
+  <a class="float-social-item social-douyin" href="https://www.douyin.com/user/MS4wLjABAAAAitCbCu8Wvka1gn6m8pj1454J1scLYY9D2DxEvkFAaUE5McnpT7ozKZ2Lxe8nhZ2I" target="_blank" title="抖音：MC小纸">
+    <img class="social-img" src="/png/tiktok.png" alt="douyin">
+  </a>
+  <!-- 小红书 本地图片 xiaohongshu.png -->
+  <a class="float-social-item social-xhs" href="https://www.xiaohongshu.com/user/profile/5fbcf7b1000000000101d32b" target="_blank" title="小红书：MC小纸">
+    <img class="social-img" src="/png/xiaohongshu.png" alt="xiaohongshu">
+  </a>
+  <!-- 快手 本地图片 kuaishou.png -->
+  <a class="float-social-item social-ks" href="https://www.kuaishou.com/profile/3x4e3ba69qyt472" target="_blank" title="快手：MC小纸">
+    <img class="social-img" src="/png/kuaishou.png" alt="kuaishou">
+  </a>
+  <!-- Github FA图标 -->
+  <a class="float-social-item social-github" href="https://github.com/xiaozhi114" target="_blank" title="Github主页">
+    <i class="fa fa-github"></i>
+  </a>
+  <!-- 邮箱 FA图标 -->
+  <a class="float-social-item social-mail" href="mailto:3513448632@qq.com" title="发送邮件联系">
+    <i class="fa fa-envelope"></i>
+  </a>
+</div>
+<canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/fireworks.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
