@@ -174,7 +174,7 @@
 body, h1,h2,h3,h4,h5,h6,p,span:not(.fa),
 .menu-item-text, .post-title, .sidebar-title,
 .card-author-desc, .footer, .tag, .category, .word,
-input, textarea, button, a
+input, textarea, button, a, .page-number, .toc-item
 {
   font-family: "MinecraftAE", system-ui, sans-serif !important;
 }
@@ -185,9 +185,9 @@ i.fa, span.fa, .fa::before {
   font-weight: normal !important;
 }
 
-/* 代码块保留等宽字体 */
+/* 代码块保留等宽字体，加!important强制生效 */
 pre, code {
-  font-family: Consolas, monospace;
+  font-family: Consolas, monospace !important;
 }
 
 /* 右侧悬浮社交容器样式 */
